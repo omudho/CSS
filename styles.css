@@ -1,0 +1,39 @@
+header{
+   background-color: white;
+   padding: 20%;
+}
+
+h1{
+   color: black;
+   margin-left: 20px;
+}
+
+.introduction {
+   background-color: #ffff; 
+   padding: 20px;
+   margin-top: 20px; 
+}
+
+.contact {
+   background-color: #f0f0f0; 
+   padding: 20px; 
+   margin-top: 20px; 
+}
+
+/* Example media query for responsiveness */
+@media screen and (max-width: 768px) {
+   header {
+       padding: 10px;
+   }
+   
+   .introduction, .contact {
+       padding: 10px;
+   }
+
+   .skills li {
+       padding: 8px;
+   }
+}
+
+
+
